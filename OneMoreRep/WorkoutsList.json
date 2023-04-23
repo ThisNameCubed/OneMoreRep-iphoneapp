@@ -1,0 +1,14 @@
+{
+    "Workouts": {
+        "upperBody" : [
+            "arms",
+            "chest",
+            "core"
+        ],
+        "lowerBody": [
+            "quads",
+            "calves",
+            "hamstrings"
+        ]
+    }
+}
