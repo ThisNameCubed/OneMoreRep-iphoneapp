@@ -21,7 +21,7 @@ struct UpperBodyWorkouts: View {
     @ViewBuilder
     func buttonViewAnimate(with name: String, listNumber: Int) -> some View {
             ButtonView(name: name)
-            .deferredRendering(for: Double(listNumber) * 0.1)
+                .deferredRendering(for: Double(listNumber) * 0.1)
                 .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .trailing))
                     .combined(with: .opacity))
             
