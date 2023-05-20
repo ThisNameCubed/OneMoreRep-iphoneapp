@@ -30,6 +30,10 @@ struct HomeView: View {
                         UpperBodyWorkouts()
                         Spacer()
                     }
+                    if viewModel.isLowerPressed {
+                        LowerBodyWorkouts()
+                        Spacer()
+                    }
                     Spacer()
                 }
                 .onAppear {
